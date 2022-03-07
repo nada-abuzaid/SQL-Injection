@@ -49,7 +49,7 @@ If there is nothing to prevent a user from entering "wrong" input, the user can 
 Then, the SQL statement will look like this:
 
 ```sql
-SELECT * FROM students WHERE StudentId = 120 OR 1=1;
+SELECT * FROM Students WHERE StudentId = 120 OR 1=1;
 ```
 
 The SQL above is valid and will return ALL rows from the "Users" table, since OR 1=1 is always TRUE.
